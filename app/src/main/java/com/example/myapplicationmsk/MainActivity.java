@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
         myCat.talk();
         //murzik.breathe();
 
+        Cat vaska = new Cat();
+        vaska.talk("Meow, meow!");
+
 
         Cat murzik = new Cat(2, "Murza");
         murzik.talk();
