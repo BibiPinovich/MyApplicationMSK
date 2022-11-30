@@ -22,32 +22,26 @@ public class MainActivity extends AppCompatActivity {
 
         z = z++;
 
-        myCat = new Cat(4, "Puma");
-        myCat.talk();
-        //murzik.breathe();
+
 
         Cat vaska = new Cat();
         vaska.talk("Meow, meow!");
 
 
-        Cat murzik = new Cat(2, "Murza");
+        Cat murzik = new Cat(2, "Murzik");
         murzik.talk();
 
 
-        Cat glasha = new Cat();
-        glasha.age = 1;
-        glasha.name = "Masha";
-        glasha.number0fLegs = 4;
-        Log.i("number0fLegs", String.valueOf(glasha.number0fLegs));
-        glasha.talk();
+        Puma bagira = new Puma();
+        bagira.talk();
 
-        Puma puma = new Puma();
-        puma.name = "Leo";
-        puma.breathe();
+        Cat puma = new Puma();
         puma.talk();
-        puma.isAlive = true;
-        Log.i("isAlive", String.valueOf(puma.isAlive));
-        Log.i("breathe()", "My name is" + puma.name + " and " + puma.breathe());
+
+        Cat Simba = new Lion();
+        murzik.talk();
+
+
     }
 
     void method(double x, int y) {
