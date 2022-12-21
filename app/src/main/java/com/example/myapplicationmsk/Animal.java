@@ -3,7 +3,7 @@ package com.example.myapplicationmsk;
 import android.util.Log;
 
 public class Animal {
-    int number0fLegs;
+    int numOfLeg;
     boolean isAlive;
 
     public String breathe(){
