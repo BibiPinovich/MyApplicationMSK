@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Cat cat1 = new Cat();
         cat1.talk();
 
+
         Cat cat2 = new Cat(5,"Vaska");
         cat2.talk();
 
