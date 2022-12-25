@@ -7,6 +7,6 @@ public class Animal {
     boolean isAlive;
 
     public String breathe(){
-        return " I can breathe";
+        return " I can breathee";
     }
 }
