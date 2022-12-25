@@ -8,23 +8,24 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    //private
-    //package acces
-    //protected
-    //public
 
-    Cat myCat;
-    int z;
-    Cat murzik;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Cat cat1 = new Cat ();
-        Log.i("numOfLeg", "cat1 num of leg: " + cat1.numOfLeg);
+        Cat cat1 = new Cat();
+        cat1.talk();
 
+        Cat cat2 = new Cat(5,"Vaska");
+        cat2.talk();
+
+        Cat cat3 = new Cat(8,"Murzik");
+        cat3.talk();
+
+        Cat.CatMood catMood = new Cat().new CatMood();
+        Log.i("levelOfMood", String.valueOf(catMood.levelOfMood));
 
     }
 }
