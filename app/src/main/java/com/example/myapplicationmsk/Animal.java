@@ -2,11 +2,14 @@ package com.example.myapplicationmsk;
 
 import android.util.Log;
 
-public class Animal {
+public abstract class Animal {
     int numOfLeg;
     boolean isAlive;
 
-    public String breathe(){
-        return " I can breathee";
+    abstract public void draw();
+
+
+
+
     }
-}
+

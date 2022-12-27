@@ -10,7 +10,7 @@ import android.util.Log;
 
 import java.security.PrivateKey;
 
-public class Cat extends Animal {
+    public abstract class Cat extends Animal {
         private int age;
         String name;
         private int color;

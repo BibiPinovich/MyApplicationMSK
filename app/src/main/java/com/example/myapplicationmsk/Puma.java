@@ -6,5 +6,8 @@ public class Puma extends Cat {
     private String pumaHellowText;
 
 
+    @Override
+    public void draw() {
 
+    }
 }
