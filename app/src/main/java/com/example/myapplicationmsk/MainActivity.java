@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements Printable{
         Printable printable = new Puma();
         printable.print();
         ((Puma) printable).move();
+
         printAnyObject(new MainActivity());
 
 
